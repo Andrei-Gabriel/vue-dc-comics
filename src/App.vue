@@ -22,7 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-  #app {
-
-  }
+  @import 'assets/style/global.scss';
 </style>
