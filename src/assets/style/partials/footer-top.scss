@@ -1,0 +1,34 @@
+.footer-top {
+    background-color: #0282f9;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+.footer-top-container {
+    @include width-contnet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // .footer-top-links
+    .footer-top-links{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        // .footer-top-links elem
+        img {
+            height: 50px;
+        }
+        #piuPiccola {
+            height: 30px;
+        }
+        // img:last-child {
+        //     height: 40px;
+        // }
+        span {
+            color: white;
+            text-transform: uppercase;
+            margin-left: 7px;
+            font-size: 12px;
+        }
+    }
+}
