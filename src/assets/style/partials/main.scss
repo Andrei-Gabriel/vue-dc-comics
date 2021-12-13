@@ -1,0 +1,18 @@
+.main {
+    background-color: #000;
+    margin-top: 1px; //Per vedere tutto il bordo di #active
+}
+.main-container {
+    @include width-contnet;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    h1 {   
+        color: white;
+        font-size: 24px;
+    }
+    h1::after{
+        content: ' <--';
+    }
+}

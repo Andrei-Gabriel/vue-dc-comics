@@ -1,4 +1,6 @@
 @import './partials/variables.scss';
+@import './partials/main.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap');
 
 * {
@@ -8,12 +10,10 @@
     font-size: 100%;
 }
 #app {
-    max-width: 1200px;
-    margin: 0 auto;
     font-family: 'Lato', sans-serif;
 }
 
 #active {
-    border-bottom: 2px solid #0282f9;
+    border-bottom: 3px solid #0282f9;
     color: #0282f9;
 }

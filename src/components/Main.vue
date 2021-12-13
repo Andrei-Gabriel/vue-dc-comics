@@ -1,7 +1,9 @@
 <template>
-  <div>
-      
-  </div>
+  <section class="main">
+      <div class="main-container">
+          <h1>--> Content goes here</h1>
+      </div>
+  </section>
 </template>
 
 <script>
@@ -10,6 +12,6 @@
     }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
