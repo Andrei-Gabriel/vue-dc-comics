@@ -1,0 +1,21 @@
+.footer-center {
+    // background-image: url("../../img/footer-bg.jpg");
+    background-color: gray;
+    width: 100%;
+}
+.footer-center-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    @include width-content;
+    .CANC-LISTE{
+        width: 40%;
+        height: 100%;
+        background-color: rgb(230, 79, 79);
+    }
+    img {
+        height: 140%;
+
+    }
+}

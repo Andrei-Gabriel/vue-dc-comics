@@ -24,6 +24,23 @@
               </div>
           </div>
       </div>
+
+      <!-- Inizio footer-center -->
+      <div class="footer-center">
+          <div class="footer-center-container">
+              <div class="CANC-LISTE">
+              </div>
+              <img src="../assets/img/dc-logo-bg.png" alt="">
+          </div>
+      </div>
+
+      <!-- Inizio footer-bottom -->
+      <div class="footer-bottom">
+          <div class="footer-bottom-container">
+              <div class="PROVA"></div>
+              <div class="PROVA"></div>
+          </div>
+      </div>
   </footer>
 </template>
 

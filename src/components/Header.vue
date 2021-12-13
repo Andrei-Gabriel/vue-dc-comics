@@ -33,7 +33,7 @@
     @import '../assets/style/global.scss';
     header {
         .header-container{
-            @include width-contnet;
+            @include width-content;
             height: 100px;
             display: flex;
             align-items: center;
