@@ -2,17 +2,31 @@
     background-color: #000;
     margin-top: 1px; //Per vedere tutto il bordo di #active
 }
+.hero {
+    // background-image: url('../../img/jumbotron.jpg');
+    background-color: cadetblue;
+    height: 300px;
+    width: 100%;
+}
 .main-container {
     @include width-content;
     height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
-    h1 {   
-        color: white;
-        font-size: 24px;
-    }
-    h1::after{
-        content: ' <--';
+    position: relative;
+    .current {
+        background-color: #0282f9;
+        padding: 10px 20px;
+        height: $currentHeight;
+        position: absolute;
+        top: -$currentHeight; //Non va bene con -50%
+        transform: translate(0, 50%);
+        span {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 20px;
+        }
     }
 }
