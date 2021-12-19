@@ -1,17 +1,25 @@
 <template>
   <section class="main">
-      <div class="hero"></div>
+      <div class="hero">
+          <img src="../assets/img/jumbotron.jpg">
+      </div>
       <div class="main-container">
-          <div class="current">
-              <span>current series</span>
-          </div>
+        <div class="current">
+            <span>current series</span>
+        </div>
+        <MainCards v-for="(comic, index) in comics" :key="index" :comic="comic"/>  
       </div>
   </section>
 </template>
 
 <script>
+    import MainCards from './sections/MainCards.vue';
+
     export default {
         name: 'Main',
+        components: {
+            MainCards,
+        },
         data() {
             return {
                 comics: [

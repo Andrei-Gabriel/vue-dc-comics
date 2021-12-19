@@ -4,23 +4,30 @@
 }
 .hero {
     // background-image: url('../../img/jumbotron.jpg');
-    background-color: cadetblue;
-    height: 300px;
+    height: 420px;
     width: 100%;
+    img {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+    }
 }
 .main-container {
     @include width-content;
-    height: 100px;
     width: 100%;
-    display: flex;
-    align-items: center;
+    padding: 40px 0 20px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     .current {
         background-color: #0282f9;
-        padding: 10px 20px;
+        padding: 10px 15px;
         height: $currentHeight;
         position: absolute;
-        top: -$currentHeight; //Non va bene con -50%
+        top: -$currentHeight; /*Non va bene con -50% e non accetta % alla fine*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
         transform: translate(0, 50%);
         span {
             color: #fff;

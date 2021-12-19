@@ -28,17 +28,25 @@
       <!-- Inizio footer-center -->
       <div class="footer-center">
           <div class="footer-center-container">
-              <div class="CANC-LISTE">
+              <div class="list">
+                  <span class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam officia tenetur temporibus et, voluptas adipisci!</span>
+                  <span class="gray">Lorem, ipsum dolor.</span>
+                  <span class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam officia tenetur temporibus et, voluptas adipisci!</span>
+                  <span class="gray">Lorem, ipsum dolor.</span>
+                  <span class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam officia tenetur temporibus et, voluptas adipisci!</span>
+                  <span class="gray">Lorem, ipsum dolor.</span>
               </div>
-              <img src="../assets/img/dc-logo-bg.png" alt="">
+              <img src="../assets/img/dc-logo-bg.png">
           </div>
       </div>
 
       <!-- Inizio footer-bottom -->
       <div class="footer-bottom">
           <div class="footer-bottom-container">
-              <div class="PROVA"></div>
-              <div class="PROVA"></div>
+              <div class="left">
+                  Lorem, ipsum.
+              </div>
+              <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam?</div>
           </div>
       </div>
   </footer>
